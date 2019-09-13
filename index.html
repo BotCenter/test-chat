@@ -1,0 +1,25 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    var urlParams = new URLSearchParams(window.location.search);
+    (function() {
+      var tc = document.createElement("script");
+      tc.type = "text/javascript";
+      tc.async = true;
+      tc.src = "https://app.talkcenter.io/v2/talkcenter.min.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(tc, s);
+    })();
+    window.TalkCenter = {
+      token: urlParams.get('token')
+    };
+  </script>
+
+</body>
