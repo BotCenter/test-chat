@@ -24,9 +24,19 @@
 </style>
 </head>
 <body>
-    <div class="iframe-container">
-        <iframe src="https://app.talkcenter.io/v2/app.html?token=9d753637e3771d457a76152df6c49542&hostname=botcenter.github.io&account_author=false&anonymous_user=false&avatar=https%3A%2F%2Fstorage.googleapis.com%2Fpostcenter-prod-files-2018%2Fimage%2FAX5N75DXT4YQ%2F6453d14d_avatar_girl.png&aws_socketurl=wss%3A%2F%2Fwebsocket.talkcenter.io%2Fprod&backend_url=https%3A%2F%2Fservice.talkcenter.io%2Fbackend&chat_button_large=false&chat_side=false&color=%23363675ff&contact_form_account=0&contact_form_fallback=false&contact_form_fallback_account=false&contact_form_fallback_email=false&conversation_header_message=%C2%A1Hola!&cookie_file_protection=0&domain=adere.so&email_as_id=false&fb_login=false&google_login=false&hidden=false&is_embedded=false&locale=es&disclaimer_login=false&disclaimer_login_content=&login_message=Bienvenido%20a%20Adereso%20AI&logo=https%3A%2F%2Fstorage.googleapis.com%2Fpostcenter-prod-files-2018%2Fimage%2FAX5N74NDCTVQ%2F6453d11e_avatar_girl.png&message_attachment_button=true&mini_chat_can_reply=false&mini_chat_max_messages=1&only_social_login=false&open_on_device=any&open_onload=true&open_onload_delay=0&open_onload_device=any&request_country_id=false&validate_rut=false&request_phone=false&request_validate_rut=false&show_close_button=true&show_open_button=any&show_messages_history=true&sound_notifications=false&text_color=%23ffffff&text_talk_center=Adereso%20Chat&title=Adereso%20AI&welcome_message_delay=0&welcome_message_device=any&welcome_message_frequency=5&welcome_message_persistent=false&welcome_message_show=false&answer_sla_unit=MINUTES&answer_sla_value=20&auto_close_ticket_message_active=false&away_message_active=false&away_message_minute_threshold=180&case_notifications=0&close_ticket_message_active=false&close_ticket_message_answered=true&containment_active=false&containment_max_retries=5&containment_minute_threshold=0&create_closed_cases=false&enable_autoassignation=true&enable_ticket_creation=true&first_contact_message_active=false&important_keywords=%5B%5D&important_keywords_active=false&new_ticket_active=false&no_client_reply_close=false&no_client_reply_close_time=7&no_client_reply_close_unit=DAYS&out_work_hours_active=false&out_work_hours_case_action=0&separate_public_from_private_cases=true" class="tc-window">
-        </iframe>
-    </div>
+    <script type="text/javascript">
+    var urlParams = new URLSearchParams(window.location.search);
+    (function() {
+      var tc = document.createElement("script");
+      tc.type = "text/javascript";
+      tc.async = true;
+      tc.src = "https://app.talkcenter.io/v2/talkcenter.min.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(tc, s);
+    })();
+    window.TalkCenter = {
+      token: '0e497fd2b9f9de29641de2e07d7487e9'
+    };
+  </script>
 </body>
 </html>
